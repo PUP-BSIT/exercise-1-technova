@@ -15,7 +15,22 @@ type Employee = {
     print: () => void;
 };
 
-// TODO (Andaya, Gener)
+const andaya: Employee = {
+    id: 1,
+    name: "Andaya, Gener Jr., A.",
+    age: 20,
+    department: Department.HR,
+    salary: 25000,
+    print() {
+        console.log(`-----Employee-----`);
+        console.log(`Id: ${this.id}`);
+        console.log(`Name: ${this.name}`);
+        console.log(`Age: ${this.age}`);
+        console.log(`Department: ${this.department}`);
+        console.log(`Salary: $${this.salary}`);
+    },
+}
+
 const barcelos: Employee = {
     id: 2,
     name: "Barcelos, Kevin Joseph V.",
@@ -81,6 +96,7 @@ const uy: Employee = {
     },
 };
 
+andaya.print();
 barcelos.print();
 gomez.print();
 relente.print();
