@@ -1,16 +1,16 @@
 var Department;
 (function (Department) {
-    Department["HR"] = "Human Resources";
-    Department["IT"] = "Information Technology";
-    Department["SALES"] = "Sales";
-    Department["MARKETING"] = "Marketing";
-    Department["FINANCE"] = "Finance";
+    Department["hr"] = "Human Resources";
+    Department["it"] = "Information Technology";
+    Department["sales"] = "Sales";
+    Department["marketing"] = "Marketing";
+    Department["finance"] = "Finance";
 })(Department || (Department = {}));
 const andaya = {
     id: 1,
     name: "Andaya, Gener Jr., A.",
     age: 20,
-    department: Department.HR,
+    department: Department.hr,
     salary: 25000,
     print() {
         console.log(`-----Employee-----`);
@@ -25,7 +25,7 @@ const barcelos = {
     id: 2,
     name: "Barcelos, Kevin Joseph V.",
     age: 20,
-    department: Department.FINANCE,
+    department: Department.finance,
     salary: 20000,
     print() {
         console.log(`-----Employee-----`);
@@ -40,7 +40,7 @@ const gomez = {
     id: 3,
     name: "Gomez, Ashley Hermione",
     age: 20,
-    department: Department.SALES,
+    department: Department.sales,
     salary: 32000,
     print: function () {
         console.log(`--- Employee Profile ---`);
@@ -55,7 +55,7 @@ const relente = {
     id: 4,
     name: "Relente, Patricia Joy",
     age: 21,
-    department: Department.MARKETING,
+    department: Department.marketing,
     salary: 12000,
     print: function () {
         console.log(`-----Employee-----`);
@@ -70,7 +70,7 @@ const uy = {
     id: 5,
     name: "Uy, Angelica Joy",
     age: 20,
-    department: Department.IT,
+    department: Department.it,
     salary: 25000,
     print: function () {
         console.log(`-----Employee-----`);
