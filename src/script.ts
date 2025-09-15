@@ -16,7 +16,6 @@ type Employee = {
 };
 
 // TODO (Andaya, Gener)
-// TODO (Barcelos, Kevin)
 const barcelos: Employee = {
     id: 2,
     name: "Barcelos, Kevin Joseph V.",

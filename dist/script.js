@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var Department;
 (function (Department) {
     Department["HR"] = "Human Resources";
@@ -9,7 +7,6 @@ var Department;
     Department["FINANCE"] = "Finance";
 })(Department || (Department = {}));
 // TODO (Andaya, Gener)
-// TODO (Barcelos, Kevin)
 const barcelos = {
     id: 2,
     name: "Barcelos, Kevin Joseph V.",
@@ -29,4 +26,5 @@ const barcelos = {
 // TODO (Relente, Patricia Joy)
 // TODO (Uy, Angelica Joy)
 barcelos.print();
+export {};
 //# sourceMappingURL=script.js.map
