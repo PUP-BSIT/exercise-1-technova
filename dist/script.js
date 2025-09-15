@@ -24,7 +24,21 @@ const barcelos = {
 };
 // TODO (Gomez, Hermione)
 // TODO (Relente, Patricia Joy)
-// TODO (Uy, Angelica Joy)
+const uy = {
+    id: 5,
+    name: "Uy, Angelica Joy",
+    age: 20,
+    department: Department.IT,
+    salary: 25000,
+    print: function () {
+        console.log(`--- Employee Profile ${this.id} ---`);
+        console.log(`Employee Name: ${this.name}`);
+        console.log(`Age: ${this.age}`);
+        console.log(`Department: ${this.department}`);
+        console.log(`Salary: $${this.salary}`);
+    },
+};
 barcelos.print();
+uy.print();
 export {};
 //# sourceMappingURL=script.js.map
