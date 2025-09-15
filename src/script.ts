@@ -1,9 +1,9 @@
 enum Department {
-    HR = "Human Resources",
-    IT = "Information Technology",
-    SALES = "Sales",
-    MARKETING = "Marketing",
-    FINANCE = "Finance",
+    hr = "Human Resources",
+    it = "Information Technology",
+    sales = "Sales",
+    marketing = "Marketing",
+    finance = "Finance",
 }
 
 type Employee = {
@@ -19,7 +19,7 @@ const andaya: Employee = {
     id: 1,
     name: "Andaya, Gener Jr., A.",
     age: 20,
-    department: Department.HR,
+    department: Department.hr,
     salary: 25000,
     print() {
         console.log(`-----Employee-----`);
@@ -35,7 +35,7 @@ const barcelos: Employee = {
     id: 2,
     name: "Barcelos, Kevin Joseph V.",
     age: 20,
-    department: Department.FINANCE,
+    department: Department.finance,
     salary: 20000,
     print() {
         console.log(`-----Employee-----`);
@@ -51,7 +51,7 @@ const gomez: Employee = {
     id: 3,
     name: "Gomez, Ashley Hermione",
     age: 20,
-    department: Department.SALES,
+    department: Department.sales,
     salary: 32000,
     print: function () {
         console.log(`--- Employee Profile ---`);
@@ -67,7 +67,7 @@ const relente: Employee = {
     id: 4,
     name: "Relente, Patricia Joy",
     age: 21,
-    department: Department.MARKETING,
+    department: Department.marketing,
     salary: 12000,
 
     print: function () {
@@ -84,7 +84,7 @@ const uy: Employee = {
     id: 5,
     name: "Uy, Angelica Joy",
     age: 20,
-    department: Department.IT,
+    department: Department.it,
     salary: 25000,
     print: function () {
         console.log(`-----Employee-----`);
