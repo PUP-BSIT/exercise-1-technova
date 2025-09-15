@@ -28,11 +28,26 @@ const barcelos: Employee = {
         console.log(`Name: ${this.name}`);
         console.log(`Age: ${this.age}`);
         console.log(`Department: ${this.department}`);
-        console.log(`Salary: ${this.salary}`);
+        console.log(`Salary: $${this.salary}`);
     },
 };
 
-// TODO (Gomez, Hermione)
+const gomez: Employee = {
+    id: 3,
+    name: "Gomez, Ashley Hermione",
+    age: 20,
+    department: Department.SALES,
+    salary: 32000,
+    print: function () {
+        console.log(`--- Employee Profile ---`);
+        console.log(`Id: ${this.id}`);
+        console.log(`Employee Name: ${this.name}`);
+        console.log(`Age: ${this.age}`);
+        console.log(`Department: ${this.department}`);
+        console.log(`Salary: $${this.salary}`);
+    },
+};
+
 // TODO (Relente, Patricia Joy)
 const uy: Employee = {
     id: 5,
@@ -51,4 +66,5 @@ const uy: Employee = {
 };
 
 barcelos.print();
+gomez.print();
 uy.print();
