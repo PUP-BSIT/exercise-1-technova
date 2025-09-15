@@ -31,7 +31,8 @@ const uy = {
     department: Department.IT,
     salary: 25000,
     print: function () {
-        console.log(`--- Employee Profile ${this.id} ---`);
+        console.log(`-----Employee-----`);
+        console.log(`Id: ${this.id}`);
         console.log(`Employee Name: ${this.name}`);
         console.log(`Age: ${this.age}`);
         console.log(`Department: ${this.department}`);
