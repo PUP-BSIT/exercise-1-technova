@@ -37,7 +37,21 @@ const gomez = {
         console.log(`Salary: $${this.salary}`);
     },
 };
-// TODO (Relente, Patricia Joy)
+const relente = {
+    id: 4,
+    name: "Relente, Patricia Joy",
+    age: 21,
+    department: Department.MARKETING,
+    salary: 12000,
+    print: function () {
+        console.log(`-----Employee-----`);
+        console.log(`Id: ${this.id}`);
+        console.log(`Employee Name: ${this.name}`);
+        console.log(`Age: ${this.age}`);
+        console.log(`Department: ${this.department}`);
+        console.log(`Salary: $${this.salary}`);
+    },
+};
 const uy = {
     id: 5,
     name: "Uy, Angelica Joy",
@@ -55,6 +69,7 @@ const uy = {
 };
 barcelos.print();
 gomez.print();
+relente.print();
 uy.print();
 export {};
 //# sourceMappingURL=script.js.map
